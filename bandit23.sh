@@ -22,7 +22,7 @@ mv /tmp/fii/z.sh /var/spool/bandit24/foo
 
 a=62
 
-# If this block does not working remove the while loop and do this:
+# If the script don't work remove the while loop and do this:
 # sleep 62
 while [ "$a" -gt 0 ]; do
     printf "\rWaiting: %2ds" "$a"
